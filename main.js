@@ -46,18 +46,24 @@ const makeExtinct = function(dinosaur) {
 }
 
 const isCarnivore = function(dinosaur) {
+  return dinosaur.carnivore === true?true:false
+
 }
 
 const isExtinct = function(dinosaur) {
+  return dinosaur.extinct === true?true:false
 }
 
 const isTriassic = function(dinosaur) {
+  return dinosaur.period==='Triassic'?true:false
 }
 
 const isJurassic = function(dinosaur) {
+  return dinosaur.period === "Jurassic"?true:false
 }
 
 const isCretaceous = function(dinosaur) {
+  return dinosaur.period === 'Cretaceous'?true:false
 }
 
 
